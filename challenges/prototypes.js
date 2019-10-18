@@ -9,8 +9,7 @@
 function CuboidMaker(attr) {
     this.length = attr.length,
         this.width = attr.width,
-        this.height = attr.height,
-        console.log(this);
+        this.height = attr.height
 }
 
 
@@ -48,5 +47,5 @@ const cuboid = new CuboidMaker({
 });
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-console.log('Testing volume: ' + cuboid.volume()); // 100
-console.log('Testing volume: ' + cuboid.surfaceArea()); // 130
+console.log('Testing prototype volume: ' + cuboid.volume()); // 100
+console.log('Testing prototype surfaceArea: ' + cuboid.surfaceArea()); // 130
